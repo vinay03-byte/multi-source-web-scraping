@@ -1,0 +1,28 @@
+{
+  "run_at_utc": "2026-10-06T19:00:14.851061+00:00",
+  "execution_seconds": 435.8,
+  "records_collected": 1100,
+  "records_after_cleaning": 1100,
+  "records_rejected": 0,
+  "duplicates_detected_and_removed": 0,
+  "final_record_count": 1100,
+  "per_source": {
+    "Books to Scrape": {
+      "collected": 1000,
+      "after_cleaning": 1000,
+      "valid_before_deduplication": 1000,
+      "final_records": 1000
+    },
+    "Quotes to Scrape": {
+      "collected": 100,
+      "after_cleaning": 100,
+      "valid_before_deduplication": 100,
+      "final_records": 100
+    }
+  },
+  "rejection_samples": [],
+  "notes": [
+    "Blank fields mean the source does not provide that field in the listing being scraped.",
+    "Duplicate matching uses source plus normalized title/quote and source URL."
+  ]
+}
